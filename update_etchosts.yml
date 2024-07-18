@@ -14,11 +14,11 @@
               loop: "{{ lookup('file', 'hosts_file.txt').splitlines() }}"
           when: ansible_facts['os_family'] == "RedHat"
         
-        - name: Update hosts file on windows hosts
-          block:
-            - name: Update hosts file on windows hosts
-              ansible.windows.win_lineinfile:
-                path: C:\Windows\System32\drivers\etc\hosts
-                line: "{{ item }}"
-              loop: "{{ lookup('file', 'hosts_file.txt').splitlines() }}"
-          when: ansible_facts['os_family'] == "Windows"
+        # - name: Update hosts file on windows hosts
+        #   block:
+        #     - name: Update hosts file on windows hosts
+        #       ansible.windows.win_lineinfile:
+        #         path: C:\Windows\System32\drivers\etc\hosts
+        #         line: "{{ item }}"
+        #       loop: "{{ lookup('file', 'hosts_file.txt').splitlines() }}"
+        #   when: ansible_facts['os_family'] == "Windows"
