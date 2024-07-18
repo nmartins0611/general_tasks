@@ -1,0 +1,28 @@
+172.31.13.235 db.aap-wave.demoredhat.com db-aap-wave.demoredhat.com
+172.31.13.134 eda.aap-wave.demoredhat.com eda-aap-wave.demoredhat.com
+172.31.7.23  hub.aap-wave.demoredhat.com hub-aap-wave.demoredhat.com
+172.31.1.193  controller.aap-wave.demoredhat.com controller-aap-wave.demoredhat.com
+
+
+##### Clients
+
+
+### Scenario 1
+
+
+
+### Scenario 2 
+
+
+
+### Scenario 3 
+
+  
+
+### Scenario 4 
+172.31.14.96 rhel01-vul-aap-wave.demoredhat.com
+172.31.4.12  rhel02-vul-aap-wave.demoredhat.com
+
+
+
+### Scenario 5
