@@ -22,6 +22,7 @@
 ### Scenario 4 
 172.31.14.96 rhel01-vul.aap-wave.demoredhat.com rhel01-vul-aap-wave.demoredhat.com
 172.31.4.12  rhel02-vul.aap-wave.demoredhat.com rhel02-vul-aap-wave.demoredhat.com
+172.31.31.16 rhel03-vul.aap-wave.demoredhat.com rhel03-vul-aap-wave.demoredhat.com
 
 
 
